@@ -1,0 +1,16 @@
+name: helper-scripts
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - matplotlib
+  - opencv
+  - scikit-image
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - lpips
+      - json5
